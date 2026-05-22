@@ -1,0 +1,3 @@
+baseURL = 'https://nebulo.click/'
+locale = 'en-us'
+title = 'Nebulo'
