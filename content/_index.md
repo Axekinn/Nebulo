@@ -22,14 +22,14 @@ In the meantime, here are our partner sites:
 .nbl-badge { display: inline-block; border-radius: 9999px; padding: 0.25rem 1rem; font-size: 0.75rem; font-weight: 700; color: #fff; letter-spacing: 0.05em; }
 </style>
 
-<div class="not-prose mt-12" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; max-width: 580px; margin-left: auto; margin-right: auto;">
+<div class="not-prose mt-12" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; max-width: 880px; margin-left: auto; margin-right: auto;">
 
   <a href="https://www.axekin.com" target="_blank" rel="noopener noreferrer" class="nbl-card">
     <div class="nbl-card-top" style="background: linear-gradient(135deg, #ea4335 0%, #fbbc05 100%);">
       <img src="https://i.imgur.com/PHytgce.png"
-           alt="Google" class="nozoom" style="height:72px;width:72px;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,0.25));">
+           alt="Axekin" class="nozoom" style="height:72px;width:72px;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,0.25));">
       <div class="nbl-wave">
-        <svg viewBox="0 0 400 32" xmlns="https://www.axekin.com/logo/full-logo.png" preserveAspectRatio="none" style="width:100%;height:32px;display:block;">
+        <svg viewBox="0 0 400 32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width:100%;height:32px;display:block;">
           <path d="M0,16 Q100,32 200,16 T400,16 L400,32 L0,32 Z" class="nbl-wave-fill"></path>
         </svg>
       </div>
@@ -46,7 +46,7 @@ In the meantime, here are our partner sites:
       <img src="https://ankergames.net/static/img/footer-dark-logo-1769784075.svg"
            alt="AnkerGames" class="nozoom" style="height:72px;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,0.3));">
       <div class="nbl-wave">
-        <svg viewBox="0 0 400 32" xmlns="https://ankergames.net/static/img/footer-dark-logo-1769784075.svg" preserveAspectRatio="none" style="width:100%;height:32px;display:block;">
+        <svg viewBox="0 0 400 32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width:100%;height:32px;display:block;">
           <path d="M0,16 Q100,32 200,16 T400,16 L400,32 L0,32 Z" class="nbl-wave-fill"></path>
         </svg>
       </div>
@@ -55,6 +55,23 @@ In the meantime, here are our partner sites:
       <div class="nbl-card-title">AnkerGames</div>
       <p class="nbl-card-desc">Free Download Pre-installed portable PC games from steam and major publishers with fastest downloads.</p>
       <span class="nbl-badge" style="background: linear-gradient(135deg, #232f3e, #ff9900);">Browse Games</span>
+    </div>
+  </a>
+
+  <a href="https://warez-chan.com/" target="_blank" rel="noopener noreferrer" class="nbl-card">
+    <div class="nbl-card-top" style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);">
+      <img src="https://i.imgur.com/x783jPa.png"
+           alt="Warez-chan" class="nozoom" style="height:72px;width:72px;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,0.3));">
+      <div class="nbl-wave">
+        <svg viewBox="0 0 400 32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width:100%;height:32px;display:block;">
+          <path d="M0,16 Q100,32 200,16 T400,16 L400,32 L0,32 Z" class="nbl-wave-fill"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="nbl-card-body">
+      <div class="nbl-card-title">Warez-chan</div>
+      <p class="nbl-card-desc">Direct download directory and scene releases catalog indexing software, games, and digital media.</p>
+      <span class="nbl-badge" style="background: linear-gradient(135deg, #4f46e5, #7c3aed);">Browse Releases</span>
     </div>
   </a>
 
