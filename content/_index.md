@@ -7,22 +7,26 @@ Welcome to **Nebulo**, a group dedicated primarily to preserving video games, bu
 In the meantime, here are our partner sites:
 
 <style>
-.nbl-card-body { background: #ffffff; }
+article.prose section.prose { max-width: 1050px !important; }
+.nbl-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; max-width: 1050px; width: 100%; margin-left: auto; margin-right: auto; }
+@media (max-width: 768px) {
+  .nbl-grid { grid-template-columns: 1fr; }
+}
+.nbl-card-body { background: #ffffff; padding: 1.5rem; text-align: center; display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1; }
 .dark .nbl-card-body { background: #1f2937; }
-.nbl-card { border-radius: 1.5rem; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.12); display: block; text-decoration: none; transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.nbl-card { border-radius: 1.5rem; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.12); display: flex; flex-direction: column; text-decoration: none; transition: transform 0.25s ease, box-shadow 0.25s ease; height: 100%; }
 .nbl-card:hover { transform: translateY(-8px); box-shadow: 0 12px 36px rgba(0,0,0,0.22); }
-.nbl-card-top { position: relative; height: 180px; display: flex; align-items: center; justify-content: center; }
+.nbl-card-top { position: relative; height: 180px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .nbl-wave { position: absolute; bottom: 0; left: 0; right: 0; line-height: 0; }
-.nbl-card-body { padding: 1.5rem; text-align: center; }
 .nbl-card-title { font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; }
 .dark .nbl-card-title { color: #f3f4f6; }
 .nbl-card-title { color: #1f2937; }
 .nbl-card-desc { font-size: 0.85rem; color: #6b7280; margin: 0 0 1rem; }
 .dark .nbl-card-desc { color: #9ca3af; }
-.nbl-badge { display: inline-block; border-radius: 9999px; padding: 0.25rem 1rem; font-size: 0.75rem; font-weight: 700; color: #fff; letter-spacing: 0.05em; }
+.nbl-badge { display: inline-block; border-radius: 9999px; padding: 0.25rem 1rem; font-size: 0.75rem; font-weight: 700; color: #fff; letter-spacing: 0.05em; align-self: center; }
 </style>
 
-<div class="not-prose mt-12" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; max-width: 880px; margin-left: auto; margin-right: auto;">
+<div class="not-prose mt-12 nbl-grid">
 
   <a href="https://www.axekin.com" target="_blank" rel="noopener noreferrer" class="nbl-card">
     <div class="nbl-card-top" style="background: linear-gradient(135deg, #ea4335 0%, #fbbc05 100%);">
